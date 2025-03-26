@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from database import Database  # Импортируйте Ваш класс Database
+from database import Database  
 
 app = Flask(__name__)
 db = Database()
